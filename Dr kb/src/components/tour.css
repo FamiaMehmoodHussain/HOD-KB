@@ -1,0 +1,15 @@
+
+
+.rotating-image {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.skill-image {
+    width: 80%; /* Adjust the size as needed */
+    max-width: 400px;
+    opacity: 1; /* Initial opacity */
+    transition: opacity 0.5s ease; /* Smooth transition */
+}
+

@@ -1,0 +1,47 @@
+
+
+.hobbies {
+    padding: 2rem 0;
+    background-image: url('../assets/img/bg.jpg'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+    color: rgb(16, 16, 16); /* Change text color for better contrast */
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.hobby-card {
+    border: 1px solid rgba(132, 81, 191, 0.3); /* Light border for visibility */
+    border-radius: 200px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+    background: rgba(246, 182, 240, 0.5); /* Semi-transparent background for readability */
+    padding: 1rem;
+}
+
+.hobby-card:hover {
+    transform: scale(1.05);
+}
+
+.hobby-image {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image covers the circle */
+    margin: 0 auto; /* Center the image */
+}
+
+.year {
+    font-weight: bold;
+    color: #ddd; /* Change color for better contrast */
+}
+
+.fun-fact {
+    font-style: italic;
+    color: #eee; /* Change color for better contrast */
+}

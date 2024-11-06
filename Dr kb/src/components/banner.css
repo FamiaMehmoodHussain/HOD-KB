@@ -1,0 +1,35 @@
+.banner {
+    background-image: url('../assets/img/best-teacher-ever-black-typography-design-gift-card-for-teachers-day-vector-illustration-on-white-background-with-apple-and-pencil-back-to-schoo-2G810RC.jpg'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+    padding: 170px 0; /* Adjust padding as needed */
+    color: rgb(10, 10, 10); /* Change text color for better contrast */
+}
+.p{
+    color: rgb(14, 13, 13);
+}
+
+.profile-img-container {
+    position: relative;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(228, 150, 234, 0.5); /* Dark overlay */
+    opacity: 0;
+    transition: opacity 0.5s;
+    border-radius: 10px;
+}
+
+.profile-img-container:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+}

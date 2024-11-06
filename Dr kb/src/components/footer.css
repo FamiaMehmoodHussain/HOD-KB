@@ -1,0 +1,29 @@
+.footer {
+    background-color: #282c34; /* Adjust the background color */
+    color: white;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media a {
+    color: white; /* Adjust link color */
+    text-decoration: none;
+    font-size: 40px; /* Adjust icon size */
+}
+
+.social-media a:hover {
+    color: #cf91ee; /* Change color on hover */
+}

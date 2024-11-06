@@ -1,0 +1,54 @@
+.navbar-link {
+    margin-right: 15px; /* Adjust spacing between icons */
+    color: inherit; /* Ensure color matches your theme */
+}
+
+.navbar-link:hover {
+    color: #ef17e5; /* Change this to your hover color */
+}
+
+.active.navbar-link {
+    color: #80aad6; /* Active link color */
+}
+/* Navbar.css */
+
+.navbar {
+    background-color: #b665ce; /* Adjust the background color as needed */
+}
+
+.navbar .navbar-nav {
+    flex-direction: row; /* Aligns items in a row */
+}
+
+.navbar-link {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Space between icons */
+    color: #000; /* Default color for links */
+}
+
+.navbar-link:hover {
+    color: #007bff; /* Change this to your desired hover color */
+}
+
+.active.navbar-link {
+    color: #007bff; /* Active link color */
+}
+
+.social-icon {
+    margin: left 1px;; /* Pushes social icons to the right */
+}
+
+.vvd {
+    background-color: #007bff; /* Button background color */
+    color: rgb(227, 73, 212); /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 20px; /* Space between social icons and button */
+}
+
+.vvd:hover {
+    background-color: #6521ed; /* Darker shade on hover */
+}

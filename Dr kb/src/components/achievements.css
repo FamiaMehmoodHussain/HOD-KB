@@ -1,0 +1,29 @@
+
+.achievements {
+    background-image: url('../assets/img/ach.avif'); /* Adjust the path as needed */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0; /* Add some padding for spacing */
+    color: white; /* Adjust text color for better contrast */
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.achievement-card {
+    background: rgba(0, 0, 0, 0.5); /* Optional: adds a translucent background to cards */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.achievement-image {
+    width: 100%;
+    border-radius: 8px;
+}
+P{
+    font: 2000px;
+}
